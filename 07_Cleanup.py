@@ -1,13 +1,13 @@
 i=0
 while i < 3:
     print(i)
-    i = i+1
+    i=i + 1
 print("")
 
 #########################################
 
-a = 22
-b = 22
+a=22
+b=22
 
 if a == b:
     print("Переменные равны")
@@ -22,7 +22,7 @@ print("")
 
 #########################################
 
-is_sql_connection = False
+is_sql_connection=False
 
 if is_sql_connection:
     print("Есть соединение")
@@ -32,7 +32,7 @@ print("")
 
 #########################################
 
-summ = 0
+summ=0
 for i in range(5):  
     summ=summ + i
     
